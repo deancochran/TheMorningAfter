@@ -1,0 +1,26 @@
+@font-face{
+    src: url(fonts/Emberly-ExtraBoldNarrow.ttf);
+    font-family: LogoTitle;
+}
+header {
+    background: url(/photos/bikes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 435px;
+    width: 100%;
+    overflow: hidden;
+}
+.Header{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header .HeaderTitle{
+    font-family: LogoTitle;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+
+}
