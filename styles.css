@@ -1,6 +1,11 @@
 @font-face{
-    src: url(fonts/Emberly-ExtraBoldNarrowItalic.ttf);
-    font-family: title;
+    src: url(fonts/Emberly-ExtraBoldNarrow.ttf);
+    font-size: 100px;
+    font-family: LogoTitle;
+}
+@font-face{
+    src: url(fonts/Emberly-ExtraBoldNarrow.ttf);
+    font-family: HeaderTitle;
 }
 
 html{
@@ -10,5 +15,43 @@ html{
 
 .title{
     font-size: 50px;
-    font-family: title;
+    font-family: HeaderTitle;
+}
+header{
+    background: url(photos/bikes.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    line-height: normal;
+}
+.menu{
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+
+}
+
+.logo{
+    height: 50px;
+    float: left;
+    margin: auto;
+}
+
+.logoTitle{
+    font-family: LogoTitle;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+
+
 }
