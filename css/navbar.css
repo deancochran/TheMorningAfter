@@ -1,0 +1,38 @@
+@font-face{
+    src: url(fonts/Emberly-ExtraBoldNarrow.ttf);
+    font-family: navbar
+}
+
+nav{
+    position:fixed;
+    width: 100%;
+    line-height: normal;
+}
+.logo{
+    padding: 10px;
+    height: 90px;
+    float: left;
+    margin: auto;
+}
+
+.menu ul{
+    display: inline;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+    float: right;
+}
+.menu a:link{
+    color: black;
+    font-family: navbar;
+    text-decoration: underline;
+}
+.menu a:hover {
+    background-color: red;
+    color: black;
+  }
+.menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
