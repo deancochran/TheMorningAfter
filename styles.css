@@ -1,4 +1,14 @@
+@font-face{
+    src: url(fonts/);
+    font-family: title;
+}
+
 html{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: white;
+}
+
+.title{
+    font-size: 50px;
+    font-family: title;
 }
