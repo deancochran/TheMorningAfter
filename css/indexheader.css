@@ -1,6 +1,6 @@
 @font-face{
-    src: url(/fonts/Emberly-ExtraBold.ttf);
-    font-family: LogoTitle;
+    src: url(../fonts/Emberly-ExtraBold.ttf);
+    font-family: logotitle;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 }
 
 header .HeaderTitle{
-    font-family: LogoTitle;
+    font-family: logotitle;
     font-size: 200px;
     text-align: center;
     color: white;
