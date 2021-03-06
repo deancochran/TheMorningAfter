@@ -12,14 +12,19 @@ header {
     overflow: hidden;
 }
 .Header{
-    padding-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    position: absolute;
+    height:550px;
+    width: 100%;
+    text-align: center;
+
 }
 
-header .HeaderTitle{
+.HeaderTitle{
+    position: inherit;
     font-family: logotitle;
     font-size: 500%;
+    margin-top: 250px;
+    width: 100%;
     text-align: center;
     color: white;
 }
