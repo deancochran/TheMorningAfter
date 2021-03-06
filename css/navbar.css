@@ -5,6 +5,7 @@
 
 nav{
     background-color: black;
+    position: fixed;
     width: 100%;
     line-height: normal;
     transition: top 0.3s;
@@ -20,7 +21,7 @@ nav{
 }
 
 .menu ul{
-    float: right;
+    display: inline-block;
     padding-top: 20px;
 }
 .menu a:hover {
