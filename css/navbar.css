@@ -21,14 +21,12 @@ nav{
 }
 
 .menu{
-    /*background-color: blueviolet;*/
-    margin-left: 30%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    height:80px;
 }
 .menu ul{
-    display: inline;
-    padding-top: 100%;
+    float: right;
+    height:50px;
+    padding-top: 20px;
 
 }
 
@@ -45,11 +43,10 @@ nav{
 
 .menu a{
     text-decoration: none;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-    /* background-color: aqua; */
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .menu a:link, a:visited{
