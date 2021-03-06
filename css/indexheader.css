@@ -6,7 +6,8 @@
 header {
     background: url(../photos/bikes.png);
     background-repeat: no-repeat;
-    height: fit-content;
+    background-size:cover;
+    height: 550px;
     width: 100%;
     overflow: hidden;
 }
@@ -18,7 +19,7 @@ header {
 
 header .HeaderTitle{
     font-family: logotitle;
-    font-size: 200px;
+    font-size: 500%;
     text-align: center;
     color: white;
 }
