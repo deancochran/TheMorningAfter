@@ -4,9 +4,8 @@
 }
 
 header {
-    background:  url(../photos/bikes.png);
+    background: url(../photos/bikes.png);
     background-repeat: no-repeat;
-    background:scroll;
     height: fit-content;
     width: 100%;
     overflow: hidden;
