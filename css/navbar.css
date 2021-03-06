@@ -3,13 +3,13 @@
     font-family: navbar;
 }
 
-nav{
+/* nav{
     background-color: black;
     position:fixed;
     width: 100%;
     line-height: normal;
     transition: top 0.3s;
-}
+} */
 
 .logo{
     padding-left: 1%;
@@ -25,11 +25,11 @@ nav{
     padding-top: 20px;
 }
  */
-.menu a:hover {
+/* .menu a:hover {
     background-color: #ffd203;
     text-decoration: overline;
     color: black;
-}
+} */
 
 /* .menu a:active {
     background-color: red;
