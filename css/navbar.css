@@ -4,24 +4,28 @@
 }
 
 nav{
-    /* background-color: brown; */
+    background-color: black;
     position:fixed;
     width: 100%;
     line-height: normal;
     transition: top 0.3s;
 }
+
 .logo{
-    padding: 10px;
-    height: 90px;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    
+    height: 80px;
     float: left;
     margin: auto;
 }
 
 .menu{
-    /* background-color: blueviolet; */
+    /*background-color: blueviolet;*/
     margin-left: 30%;
-    padding-top: 2%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .menu ul{
     display: inline;
@@ -33,22 +37,23 @@ nav{
     background-color: #ffd203;
     text-decoration: overline;
     color: black;
-  }
-.menu ul .active {
+}
+
+.menu a:active {
     background-color: red;
     color: white;
-  }
+}
 
 .menu a{
     text-decoration: none;
-    padding-top: 5%;
-    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
     /* background-color: aqua; */
 }
 
-.menu a:link{
+.menu a:link, a:visited{
     color: white;
     font-size: 50px;
     font-family: navbar;
