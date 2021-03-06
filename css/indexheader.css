@@ -1,5 +1,5 @@
 @font-face{
-    src: url(../fonts/Emberly-ExtraBold.otf);
+    src: url(../fonts/Emberly-ExtraBoldCondensed.otf);
     font-family: logotitle;
 }
 
@@ -16,14 +16,15 @@ header {
     height:550px;
     width: 100%;
     text-align: center;
+    z-index: 0;
 
 }
 
 .HeaderTitle{
     position: inherit;
     font-family: logotitle;
-    font-size: 500%;
-    margin-top: 250px;
+    font-size: 800%;
+    margin-top: 200px;
     width: 100%;
     text-align: center;
     color: white;

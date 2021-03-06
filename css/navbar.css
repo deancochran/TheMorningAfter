@@ -4,20 +4,26 @@
 }
 
 nav{
+    background-color: darkolivegreen;
+    position: fixed;
     width: 100%;
     line-height: normal;
-    transition: top 0.3s;
+    transition: top 0.5s;
+    z-index: 1;
+    -webkit-transition: top 0.5s;
+    -moz-transition: top 0.5s;
+    -ms-transition: top 0.5s;
+    -o-transition: top 0.5s;
 }
 
 .logo{
     padding-left: 1%;
     padding-bottom: 1%;
     padding-top: 1%;
-    height: 100px;
+    height: 80px;
     float: left;
     margin: auto;
 }
-
 .menu ul{
     display: inline-block;
     padding-top: 20px;
@@ -35,7 +41,8 @@ nav{
 
 .menu a{
     text-decoration: none;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
 }
