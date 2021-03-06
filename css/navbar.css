@@ -14,19 +14,20 @@ nav{
     -moz-transition: top 0.5s;
     -ms-transition: top 0.5s;
     -o-transition: top 0.5s;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .logo{
-    padding-left: 1%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    height: 80px;
+    margin-left: 1%;
+    padding-bottom: 1vmax;
+    padding-top: 1vmax;
+    height: 7em;
     float: left;
-    margin: auto;
 }
 .menu ul{
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 2vmax;
 }
 .menu a:hover {
     background-color: #ffd203;
@@ -40,15 +41,13 @@ nav{
 }
 
 .menu a{
+    font-size: 50px;
     text-decoration: none;
     padding-top: 10px;
     padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .menu a:link, a:visited{
     color: white;
-    font-size: 50px;
     font-family: navbar;
 }

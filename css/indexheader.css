@@ -1,31 +1,50 @@
 @font-face{
-    src: url(../fonts/Emberly-ExtraBoldCondensed.otf);
-    font-family: logotitle;
+    src: url(../fonts/Emberly-ExtraBold.otf);
+    font-family: title;
+}
+
+@font-face{
+    src: url(../fonts/Emberly-LightCondensed.otf);
+    font-family: post;
 }
 
 header {
     background: url(../photos/bikes.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 550px;
+    height: 51vmax;
     width: 100%;
     overflow: hidden;
 }
-.Header{
+.HeaderTitle{
     position: absolute;
-    height:550px;
+    padding-top: 15vmax;
+    padding-left: 4vmax;
+    padding-right: 4vmax;
     width: 100%;
     text-align: center;
     z-index: 0;
+    overflow: hidden;
+
+
+
+}
+.HeaderTitle p{
+    font-family: title;
+    text-align: center;
+    font-size: 5vmax;
+    color: white;
 
 }
 
-.HeaderTitle{
-    position: inherit;
-    font-family: logotitle;
-    font-size: 800%;
-    margin-top: 200px;
-    width: 100%;
+.welcome .title h1{
+    padding-top: 5vmax;
+    font-family: title;
+    font-size: 8vmax;
     text-align: center;
-    color: white;
+}
+.welcome .post p{
+    font-family: post;
+    font-size: 3vmax;
+    text-align: center;
 }
