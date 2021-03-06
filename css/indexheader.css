@@ -5,7 +5,7 @@
 
 header {
     background-color: black;
-    background: url(/photos/bikes.jpeg);
+    background:  url(../photos/bikes.jpeg);
     background-repeat: no-repeat;
     background:scroll;
     height: fit-content;
