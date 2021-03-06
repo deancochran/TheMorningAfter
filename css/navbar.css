@@ -20,10 +20,10 @@ nav{
     margin: auto;
 }
 
-.menu ul{
+/* .menu ul{
     float: right;
     padding-top: 20px;
-
+ */
 }
 
 .menu a:hover {
@@ -32,7 +32,7 @@ nav{
     color: black;
 }
 
-.menu a:active {
+/* .menu a:active {
     background-color: red;
     color: white;
 }
@@ -48,4 +48,4 @@ nav{
     color: white;
     font-size: 50px;
     font-family: navbar;
-}
+} */
