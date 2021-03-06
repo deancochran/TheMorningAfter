@@ -19,11 +19,11 @@ nav{
     float: left;
     margin: auto;
 }
-
+/* 
 .menu ul{
     float: right;
     padding-top: 20px;
-}
+} */
 .menu a:hover {
     background-color: #ffd203;
     text-decoration: overline;
@@ -34,13 +34,13 @@ nav{
     background-color: red;
     color: white;
 }
-
+/* 
 .menu a{
     text-decoration: none;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
 .menu a:link, a:visited{
     color: white;
