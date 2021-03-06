@@ -28,6 +28,17 @@ nav{
     padding-top: 100%;
 
 }
+
+.menu ul :hover {
+    background-color: #ffd203;
+    text-decoration: overline;
+    color: black;
+  }
+.menu ul .active {
+    background-color: red;
+    color: white;
+  }
+
 .menu a{
     text-decoration: none;
     padding-top: 5%;
@@ -42,13 +53,3 @@ nav{
     font-size: 50px;
     font-family: navbar;
 }
-.menu a:hover {
-    background-color: #ffd203;
-    text-decoration: overline;
-    color: black;
-  }
-.menu a.active {
-    background-color: red;
-    color: white;
-  }
-
