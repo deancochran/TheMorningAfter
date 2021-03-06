@@ -20,12 +20,8 @@ nav{
     margin: auto;
 }
 
-.menu{
-    height:80px;
-}
 .menu ul{
     float: right;
-    height:50px;
     padding-top: 20px;
 
 }
@@ -43,7 +39,6 @@ nav{
 
 .menu a{
     text-decoration: none;
-    padding-top: 15px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
