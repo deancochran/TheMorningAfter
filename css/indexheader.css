@@ -4,7 +4,8 @@
 }
 
 header {
-    background: url(/photos/bikes.png);
+    background-color: black;
+    background: url(/photos/bikes.jpeg);
     background-repeat: no-repeat;
     background:scroll;
     height: fit-content;
