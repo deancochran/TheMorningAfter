@@ -1,12 +1,14 @@
 @font-face{
-    src: url(fonts/Emberly-ExtraBoldNarrow.ttf);
-    font-family: navbar
+    src: url(/fonts/Emberly-ExtraBoldCondensed.ttf);
+    font-family: navbar;
 }
 
 nav{
+    /* background-color: brown; */
     position:fixed;
     width: 100%;
     line-height: normal;
+    transition: top 0.3s;
 }
 .logo{
     padding: 10px;
@@ -15,24 +17,38 @@ nav{
     margin: auto;
 }
 
+.menu{
+    /* background-color: blueviolet; */
+    margin-left: 30%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
 .menu ul{
     display: inline;
-    text-align: center;
-    padding: auto;
-    text-decoration: none;
-    float: right;
+    padding-top: 100%;
+
 }
+.menu a{
+    text-decoration: none;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    /* background-color: aqua; */
+}
+
 .menu a:link{
-    color: black;
+    color: white;
+    font-size: 50px;
     font-family: navbar;
-    text-decoration: underline;
 }
 .menu a:hover {
-    background-color: red;
+    background-color: #ffd203;
+    text-decoration: overline;
     color: black;
   }
 .menu a.active {
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
   }
 
