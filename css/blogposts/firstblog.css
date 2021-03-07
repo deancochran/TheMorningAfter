@@ -1,0 +1,44 @@
+@font-face{
+    src: url(../fonts/Emberly-ExtraBold.otf);
+    font-family: date;
+}
+@font-face{
+    src: url(../fonts/Emberly-ExtraBold.otf);
+    font-family: title;
+}
+@font-face{
+    src: url(../fonts/Emberly-ExtraBold.otf);
+    font-family: post;
+}
+@font-face{
+    src: url(../fonts/Emberly-ExtraBold.otf);
+    font-family: link;
+}
+html{
+    background: white;
+}
+body{
+    margin: 0;
+}
+
+.entry{
+    background-color: skyblue;
+    height: 30vmax;
+    outline: solid 1px black;
+    background-size:cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.entry .date p{
+    font-family: date;
+}
+.entry .title h1{
+    font-family: title;
+}
+.entry .post p{
+    font-family: post;
+}
+.entry .link{
+    font-family: link;
+}
