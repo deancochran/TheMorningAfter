@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://127.0.0.1:5500/TheMorningAfter/index.html -->
+<html><!-- Creating Tab element --><head id="header"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <!-- Inserting d3 -->
+        <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+        <!-- Inserting CSS -->
+        <link type="text/css" rel="stylesheet" href="./The Morning After_files/basic.css">
+        <link type="text/css" rel="stylesheet" href="./The Morning After_files/indexheader.css">
+        <link type="text/css" rel="stylesheet" href="./The Morning After_files/navbar.css">
+        <link type="text/css" rel="stylesheet" href="./The Morning After_files/footer.css">
+        <link type="text/css" rel="stylesheet" href="./The Morning After_files/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./The Morning After_files/ionicons.min.css">
+        <!-- tab name -->
+        <title id="Tab">The Morning After</title>
+        <!-- tab logo -->
+        <link rel="icon" href="./The Morning After_files/TheMorningAfterLogo.png">
+    </head>
+
+    <!-- creating body for website -->
+    <body class="body" data-new-gr-c-s-check-loaded="14.997.0" data-gr-ext-installed="">
+        <!-- Navigation bar-->
+        <header>
+            <nav id="navbar">
+                    <!-- top left logo-->
+                    <a href="http://127.0.0.1:5500/TheMorningAfter/index.html">
+                        <img class="logo" src="./The Morning After_files/TheMorningAfterLogo.png"> 
+                    </a>
+                    <!-- Page Links -->
+                    <div class="menu">
+                        <ul>  <a href="http://127.0.0.1:5500/TheMorningAfter/contact.html"> Contact </a> </ul>
+                        <ul>  <a href="http://127.0.0.1:5500/TheMorningAfter/about.html"> About </a> </ul>
+                        <ul>  <a href="http://127.0.0.1:5500/TheMorningAfter/projects.html"> Projects </a> </ul>
+                        <ul>  <a href="http://127.0.0.1:5500/TheMorningAfter/blog.html"> Blog </a> </ul>
+                        <ul>  <a href="http://127.0.0.1:5500/TheMorningAfter/gallery.html"> Gallery </a> </ul>
+                    </div>
+            </nav>
+
+            <div class="HeaderTitle">
+                <p>Whether or not you can find solidarity in what has already happened, you still made it to another day.</p>
+            </div>
+        </header>
+
+        <!-- Page Intro -->
+        <div class="welcome">
+            <div class="title">
+                <h1>Welcome to The Morning After </h1>
+            </div>
+            <div class="post">
+                <p> DUMBYYY</p>
+            </div>
+        </div>
+
+        <!-- Page Contents -->
+        <div class="entry">
+            <div class="date">
+                <p> March 6th, 2021 </p>
+            </div>
+            <div class="title">
+                <h1>Why would I ever do this to myself </h1>
+            </div>
+            <div class="image">
+                <a>
+                    <img class="entry"> 
+                </a>
+            </div>
+            <div class="post">
+                <p> This is suppose to be the full content and format of the entry.</p>
+            </div>
+            <div class="link">
+                <a> Read More </a>
+            </div>
+        </div>
+
+
+        <!-- creating footer for website -->
+        <div class="footer-basic">
+            <footer class="footer">
+                <div class="social">
+                    <a href="https://www.instagram.com/themorningafterclub_"><i class="icon ion-social-instagram"></i></a>
+                    <a href="https://twitter.com/0nlineHangover"><i class="icon ion-social-twitter"></i></a>
+                </div>
+                <ul class="list-inline">
+                    <ul class="list-inline-item">  <a href="http://127.0.0.1:5500/TheMorningAfter/contact.html"> Contact </a> </ul>
+                    <ul class="list-inline-item">  <a href="http://127.0.0.1:5500/TheMorningAfter/about.html"> About </a> </ul>
+                    <ul class="list-inline-item">  <a href="http://127.0.0.1:5500/TheMorningAfter/projects.html"> Projects </a> </ul>
+                    <ul class="list-inline-item">  <a href="http://127.0.0.1:5500/TheMorningAfter/blog.html"> Blog </a> </ul>
+                    <ul class="list-inline-item">  <a href="http://127.0.0.1:5500/TheMorningAfter/gallery.html"> Gallery </a> </ul>
+                </ul>
+                <p class="copyright">The Morning After </p>
+            </footer>
+        </div>
+
+    <script src="./The Morning After_files/navbar.js"></script>
+    <script src="./The Morning After_files/jquery.min.js"></script>
+    <script src="./The Morning After_files/bootstrap.bundle.min.js"></script>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

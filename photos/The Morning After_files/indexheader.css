@@ -12,7 +12,7 @@ header {
     background: url(../photos/bikes.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 55vmax;
+    height: 51vmax;
     width: 100%;
     overflow: hidden;
 }
@@ -42,7 +42,6 @@ header {
     font-family: title;
     font-size: 8vmax;
     text-align: center;
-    text-decoration: underline;
 }
 .welcome .post p{
     font-family: post;

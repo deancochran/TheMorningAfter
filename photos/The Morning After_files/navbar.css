@@ -20,20 +20,24 @@ nav{
 
 .logo{
     margin-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 1vmax;
+    padding-top: 1vmax;
     height: 7em;
     float: left;
 }
 .menu ul{
     display: inline-block;
-    margin-left: 10px;
-    margin-top: 35px;
+    padding-top: 2vmax;
 }
-.menu a:hover{
+.menu a:hover {
     background-color: #ffd203;
     text-decoration: overline;
     color: black;
+}
+
+.menu a:active {
+    background-color: red;
+    color: white;
 }
 
 .menu a{
@@ -46,10 +50,4 @@ nav{
 .menu a:link, a:visited{
     color: white;
     font-family: navbar;
-}
-
-.menu .current a{
-    background-color: #ffd203;
-    text-decoration: overline;
-    color: black;
 }

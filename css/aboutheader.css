@@ -12,7 +12,7 @@ header {
     background: url(../photos/bikes.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 55vmax;
+    height: 51vmax;
     width: 100%;
     overflow: hidden;
 }
@@ -25,16 +25,12 @@ header {
     text-align: center;
     z-index: 0;
     overflow: hidden;
-
-
-
 }
 .HeaderTitle p{
     font-family: title;
     text-align: center;
     font-size: 5vmax;
     color: white;
-
 }
 
 .welcome .title h1{
