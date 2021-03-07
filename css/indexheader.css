@@ -15,6 +15,7 @@ header {
     height: 55vmax;
     width: 100%;
     overflow: hidden;
+    z-index: 0;
 }
 .HeaderTitle{
     position: absolute;

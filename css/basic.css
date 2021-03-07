@@ -21,15 +21,60 @@ body{
     margin: 0;
 }
 
-.entry .date p{
+.entry{
+    background-image: url(../photos/bikes.jpeg);
+    height: 400px;
+    outline: solid 1px black;
+    background-size:cover;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 120px;
+}
+
+.entry div{
+    padding-right: 5%;
+}
+
+.entry .date{
+    background-color: blueviolet;
+    width: 100%;
     font-family: date;
+    color: white;
+}
+
+.entry .date p{
+    clear: both;
+    float: right;
+}
+.entry .title{
+    background-color: red;
+    font-family: title;
+    color: white;
 }
 .entry .title h1{
-    font-family: title;
+    float: right;
+    clear: both;
+}
+.entry .post{
+    background-color: yellow;
+    font-family: post;
+    color: white;
 }
 .entry .post p{
-    font-family: post;
+    float: right;
+    clear: both;
 }
 .entry .link{
+    background-color:darkolivegreen;
+    font-family: link;
+    color: white;
+}
+
+.entry .link a{
+    float: right;
+    clear: both;
+}
+.entry a:link, a:visited{
+    color: white;
     font-family: link;
 }

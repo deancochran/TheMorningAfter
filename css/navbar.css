@@ -7,15 +7,15 @@ nav{
     background-color: darkolivegreen;
     position: fixed;
     width: 100%;
-    line-height: normal;
+    line-height: 5vmax;
     transition: top 0.5s;
-    z-index: 1;
     -webkit-transition: top 0.5s;
     -moz-transition: top 0.5s;
     -ms-transition: top 0.5s;
     -o-transition: top 0.5s;
     white-space: nowrap;
     overflow: hidden;
+    z-index: 1;
 }
 
 .logo{
@@ -27,7 +27,7 @@ nav{
 }
 .menu ul{
     display: inline-block;
-    margin-left: 10px;
+    padding-left: 4vmax;
     margin-top: 35px;
 }
 .menu a:hover{
