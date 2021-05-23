@@ -1,9 +1,3 @@
--Make a  blog  class
--make  a  post function
-
-every post call will create a blog and output the blog 
-into a stored file based on the month and year and time of when the blog was made
-
 
 for exmaple:
 
@@ -13,11 +7,21 @@ user inputs in quotes ""
 title:
 "My first post"
 
+Auther:
+"Dean Cochran"
+
 subject(s):
 "blog" or "photos, film, friends, thoiughts, quote, etc.."
 
 Date: * pull from computer data to be: Sunday, May 23, 2021, @ 12:35:08*
 
-Contents:
+-add functionality to the blog class that creates a new blog html file 
+-this functionality will also add/place blogs into there respective month folder inside the blogs folder 
 
-" ...  ... .. .. .. .  .. . .... .. .. .  -dean" 
+-Make a data file which a python file reads and forms a working blog database features
+    -blog id
+    -time of post
+    -title
+    -subject
+    -name
+    -path to blog
