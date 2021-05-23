@@ -4,6 +4,8 @@ class Person:
     This class creates a basic singluar blog post given a path. 
     If no path is given it can make a new blog post.
 
+    This is no finished...
+
     All blogs would be created to be held in the blogs folder of TheMorningAfter Repository
     """ 
     #This creates a new blog post from scratch (prompts the user for information)
