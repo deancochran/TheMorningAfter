@@ -1,5 +1,5 @@
 /*
-  The Morning After Database
+  The Morning After Database IDEA
   By: Dean Cochran
 */
 
