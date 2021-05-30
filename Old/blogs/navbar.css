@@ -1,0 +1,38 @@
+@font-face{
+    src: url(../fonts/Mulish/static/Mulish-Medium.ttf);
+    font-family: text;
+}
+#header{
+    width: 100%;
+    font-family: text;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+#navbar{
+    background-color: blue;
+    color: white;
+    
+}
+nav{
+    margin-top:-2%;
+    overflow: hidden;
+    background:transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+#menu ul{
+    display: inline-block;
+}
+#menu a{
+    color: white;
+    
+}
+#menu a:hover{
+    text-decoration: overline;
+}

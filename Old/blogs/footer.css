@@ -1,0 +1,32 @@
+@font-face{
+  src: url(../fonts/Mulish/static/Mulish-Medium.ttf);
+  font-family: text;
+}
+
+#footer{
+  background-color:blue;
+  color: white;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  font-family: text;
+
+}
+
+#footer .links {
+  width: 100%;
+  margin-top: -2%;
+  text-align:center;
+  font-size: 50px;
+}
+
+#footer .links a {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+
+}
+
+#footer .copyright {
+  text-align:center;
+}

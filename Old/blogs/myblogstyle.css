@@ -1,0 +1,36 @@
+@font-face{
+    src: url(../fonts/Mulish/static/Mulish-Medium.ttf);
+    font-family: text;
+}
+
+html{
+    position: absolute;
+    font-family: text;
+}
+
+#header, #footer {
+    height: 100px;
+    color: blue;
+    font-family: text;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+
+#main div{
+    position: center;
+    text-align: center;
+    color: blue;
+    font-family: text;
+    font-size: 20px;
+}
+
+.tab { 
+    margin-left: 40px; 
+}
+
+.image img{
+    height: 50%;
+    width: 50%;
+}
